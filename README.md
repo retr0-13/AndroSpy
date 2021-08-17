@@ -16,7 +16,7 @@ Building Tutorial: https://www.youtube.com/watch?v=MbZJDwBrvDE
 # Compilation
 ## Step 1:
 [!] COMPILE THE CLIENT PROJECT IN VISUAL STUDIO ONCE, THEN YOU MAKE IN BOTTOM STEPS, OTHERWIESE YOU SEE ERROR. 
---> (THIS STEP IS REQUIRED BECAUSE OF NUGET PACKETS.)  
+--> (THIS STEP IS REQUIRED BECAUSE OF NUGET PACKETS.) If you see Nuget Packages errors in Visual Stuido, download this .zip and extract to path of Client project https://www.mediafire.com/file/eeuakup61xhz5iv/packages.zip/file then close Visual Studio and re-open the Client project (Task2.sln), then clean project and re-build the Client project.  
 
 ## Step 2:
 [!] Then you must put path of each .exe in Settings window of AndroSpy and copy the all files of Client project to "ProjectFolder" path in SV project (\SV\bin\Debug\resources\ProjectFolder)  
