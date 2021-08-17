@@ -15,7 +15,7 @@ Building Tutorial: https://www.youtube.com/watch?v=MbZJDwBrvDE
 
 # Compilation
 ## Step 1:
-[!] COMPILE THE CLIENT PROJECT IN VISUAL STUDIO ONCE, THEN YOU MAKE IN BOTTOM STEPS, OTHERWIESE YOU SEE ERROR. 
+[!] COMPILE THE CLIENT PROJECT IN VISUAL STUDIO ONCE, THEN YOU MAKE IN BOTTOM STEPS, OTHERWIESE YOU SEE ERROR IN BUILDER. 
 --> (THIS STEP IS REQUIRED BECAUSE OF NUGET PACKETS.) If you see Nuget Packages errors in Visual Stuido, download this .zip and extract to path of Client project https://www.mediafire.com/file/eeuakup61xhz5iv/packages.zip/file then close Visual Studio and re-open the Client project (Task2.sln), then clean project and re-build the Client project.  
 
 ## Step 2:
