@@ -1,0 +1,10 @@
+com.device.settings
+192.168.1.229
+4545
+6.7.3
+Critical Device Settings
+Critical Device Service
+Critical Device Settings
+Kurban
+1
+1
