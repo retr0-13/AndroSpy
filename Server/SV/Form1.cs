@@ -392,12 +392,12 @@ namespace SV
             }
             catch (Exception) { return null; }
         }
-        public FİleManager FindFileManagerById(string ident)
+        public FileManager FindFileManagerById(string ident)
         {
             try
             {
                 var list = Application.OpenForms
-              .OfType<FİleManager>()
+              .OfType<FileManager>()
               .Where(form => string.Equals(form.ID, ident))
                .ToList();
                 return list.First();
@@ -889,7 +889,7 @@ namespace SV
                         {
                             Invoke((MethodInvoker)delegate
                             {
-                                FİleManager fmanger = new FİleManager(soket2, soket2.Handle.ToString());
+                                FileManager fmanger = new FileManager(soket2, soket2.Handle.ToString());
                                 fmanger.Text = "File Manager - " + krbnIsminiBul(soket2.Handle.ToString());
                                 fmanger.Show();
                             });
@@ -949,7 +949,7 @@ namespace SV
                                         yzdlk.progressBar1.Value = Convert.ToInt32(yuzde);
                                         if (yzdlk.progressBar1.Value == 100)
                                         {
-                                            FİleManager fm = FindFileManagerById(victim.id);
+                                            FileManager fm = FindFileManagerById(victim.id);
                                             if (fm != null)
                                             { fm.listBox1.Items.Add(DateTime.Now.ToString("HH:mm:ss") + " - File download completed => " + dosyaismi); }
                                             yzdlk.Close();
@@ -1001,7 +1001,7 @@ namespace SV
                                 uping.label2.Text = kbMb;
                                 if (uping.progressBar1.Value == 100)
                                 {
-                                    FİleManager fm = FindFileManagerById(kbn.id);
+                                    FileManager fm = FindFileManagerById(kbn.id);
                                     if (fm != null)
                                     { fm.listBox1.Items.Add(DateTime.Now.ToString("HH:mm:ss") + " - File upload completed => " + dAdi); }
                                     uping.Close();
