@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 namespace SV
 {
-    public partial class FİleManager : MetroFramework.Forms.MetroForm
+    public partial class FileManager : MetroFramework.Forms.MetroForm
     {
         Socket soketimiz;
         public string ID = "";
@@ -17,7 +17,7 @@ namespace SV
         List<ListViewItem> lArray_ = new List<ListViewItem>();
         List<string> clipBoard = new List<string>();
         bool cuted = false;
-        public FİleManager(Socket s, string aydi)
+        public FileManager(Socket s, string aydi)
         {
             InitializeComponent();
             if (!ımageList1.Images.ContainsKey("folder")) { ımageList1.Images.Add("folder", SystemIcons.FolderSmall); }
@@ -409,7 +409,7 @@ namespace SV
                 label5.Text = "Location:";
             }
         }
-        private void FİleManager_Load(object sender, EventArgs e)
+        private void FileManager_Load(object sender, EventArgs e)
         {
             listView1.BringToFront();
         }
