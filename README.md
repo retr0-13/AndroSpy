@@ -1,4 +1,7 @@
 # AndroSpy - Xamarin-C# Android RAT  
+
+Contact me on Telegram Messenger: @v_for_vandet  
+
 <img src="https://user-images.githubusercontent.com/45147475/89324496-096d1580-d690-11ea-86d2-1b8b1d484d35.png" width="25%"></img>   
 
 An Android RAT that written in completely C# by me.
@@ -8,8 +11,6 @@ An Android RAT that written in completely C# by me.
 Yes, It is supporting dns connection like no-ip or duckdns or dynu etc. and it has been tested with ngrok and portmap.io; it is working with both but you can't hear live mic because of UDP port.  
 
 Your Visual Studio must have Xamarin Developing Kit, otherwise you can't build client.  
-
-Contact me on Telegram Messenger: @v_for_vandet
 
 If you have Xamarin Developing Kit;  
 
