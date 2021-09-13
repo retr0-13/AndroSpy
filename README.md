@@ -9,6 +9,8 @@ Yes, It is supporting dns connection like no-ip or duckdns or dynu etc. and it h
 
 Your Visual Studio must have Xamarin Developing Kit, otherwise you can't build client.  
 
+Contact me on Telegram Messenger: @v_for_vandet
+
 If you have Xamarin Developing Kit;  
 
 Building Tutorial: https://www.youtube.com/watch?v=MbZJDwBrvDE  
