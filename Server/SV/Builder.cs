@@ -58,7 +58,12 @@ namespace SV
                     File.Copy(Environment.CurrentDirectory + "\\resources\\Icon\\Icon.png", Environment.CurrentDirectory + @"\resources\ProjectFolder\Resources\mipmap-xxhdpi\Icon.png", true);
                     File.Copy(Environment.CurrentDirectory + "\\resources\\Icon\\Icon.png", Environment.CurrentDirectory + @"\resources\ProjectFolder\Resources\mipmap-xxxhdpi\Icon.png", true);
                     
-                    listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] Building has started.");
+                    listBox1.Invoke((MethodInvoker)delegate {
+                        listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] Building has started.");
+                    });
+
+                    
+
                     string packageName = textBox1.Text;
                     int versionCode = 10;
                     string versionName = textBox2.Text;
@@ -100,14 +105,21 @@ namespace SV
 
 
                     RunProcess(msbuild, mbuildArgs);
-                    listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] Compiled.");
-
+                    listBox1.Invoke((MethodInvoker)delegate {
+                        listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] Compiled.");
+                    });
+                    
                     RunProcess(jarsigner, jarsignerArgs);
-                    listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] APK signed.");
-
+                    
+                    listBox1.Invoke((MethodInvoker)delegate {
+                        listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] APK signed.");
+                    });
                     //Google Play'de yayınlayabilmeniz için.
                     RunProcess(zipalign, zipalignArgs);
-                    listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] Zipalign completed.");
+                    listBox1.Invoke((MethodInvoker)delegate {
+                        listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] Zipalign completed.");
+                    });
+                    
 
                     DirectoryInfo di = new DirectoryInfo(binPath);
                     FileInfo[] fi = di.GetFiles("*.*");
@@ -120,8 +132,10 @@ namespace SV
                     }
                     new DirectoryInfo(binPath).GetDirectories()[0].Delete(true);
                     Process.Start($"{binPath}");
-
-                    listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] APK is ready.");
+                    listBox1.Invoke((MethodInvoker)delegate {
+                        listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "] APK is ready.");
+                    });
+                    
                 }
                 catch (Exception ex) { MessageBox.Show(ex.ToString(), "Build Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation); }
             });
