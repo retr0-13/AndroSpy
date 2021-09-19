@@ -1,6 +1,6 @@
 # AndroSpy - Xamarin-C# Android RAT  
 
-Contact me on Telegram Messenger: @v_for_vandet  
+For V.I.P Help Service, customizable version etc, contact me on Telegram Messenger: @v_for_vandet  
 
 if you like project, you can donate me with BTC:    39SbutynB6WT4LcPKcbSJGeJHiHRGBrZqi
 
