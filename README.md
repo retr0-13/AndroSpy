@@ -12,6 +12,7 @@ An Android RAT that written in completely C# by me.
 
 Yes, It is supporting dns connection like no-ip or duckdns or dynu etc. and it has been tested with ngrok and portmap.io; it is working with both but you can't hear live mic because of UDP port.  
 
+If you want Live Microphone with TCP, write me on my Telegram Messenger. (In this manner you can hear Live Microphone on TCP with ngrok, portmap.io etc. but with UDP you can't.)  
 Your Visual Studio must have Xamarin Developing Kit, otherwise you can't build client.  
 
 If you have Xamarin Developing Kit;  
