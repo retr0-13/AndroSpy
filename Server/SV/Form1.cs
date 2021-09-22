@@ -20,7 +20,6 @@ namespace SV
      * Date: 20.06.2021
      * Coded By qH0sT' 2021
      * Language: C#.NET
-     * AndroSpy is always free and open source.
      * github.com/qH0sT/AndroSpy
     */
     public partial class Form1 : MetroFramework.Forms.MetroForm
