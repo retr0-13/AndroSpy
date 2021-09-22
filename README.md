@@ -13,6 +13,8 @@ An Android RAT that written in completely C# by me.
 Yes, It is supporting dns connection like no-ip or duckdns or dynu etc. and it has been tested with ngrok and portmap.io; it is working with both but you can't hear live mic because of UDP port. (only on Public version of AndroSpy)  
 
 If you want Live Microphone with TCP, write me on my Telegram Messenger. (In this manner you can hear Live Microphone on TCP with ngrok, portmap.io etc. but with UDP you can't.)  
+
+
 Private Version includes:  
 
 + Live Microphone with TCP. (You can hear live microphone with connection on ngrok, portmap.io etc.)  
