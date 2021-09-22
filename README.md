@@ -17,8 +17,9 @@ If you want Live Microphone with TCP, write me on my Telegram Messenger. (In thi
 
 Private Version includes:  
 
-+ Live Microphone with TCP. (You can hear live microphone with connection on ngrok, portmap.io etc.)  
++ Live Microphone with TCP. (You can hear Live Microphone with connection on ngrok, portmap.io etc.)  
  
+
 
 Your Visual Studio must have Xamarin Developing Kit, otherwise you can't build client.  
 
