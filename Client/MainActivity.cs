@@ -14,7 +14,6 @@ namespace Task2
      * Date: 20.06.2021
      * Coded By qH0sT' 2021
      * Language: C#.NET
-     * AndroSpy is always free and open source.
      * github.com/qH0sT/AndroSpy
     */
     [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@mipmap/icon", ExcludeFromRecents = true, AlwaysRetainTaskState = true)]
