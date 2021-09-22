@@ -20,7 +20,9 @@ Private Version includes:
 + Live Microphone with TCP. (You can hear Live Microphone with connection on ngrok, portmap.io etc.)  
  
 
-
+  
+    
+    
 Your Visual Studio must have Xamarin Developing Kit, otherwise you can't build client.  
 
 If you have Xamarin Developing Kit;  
