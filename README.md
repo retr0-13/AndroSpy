@@ -15,7 +15,7 @@ Yes, It is supporting dns connection like no-ip or duckdns or dynu etc. and it h
 If you want Live Microphone with TCP, write me on my Telegram Messenger. (In this manner you can hear Live Microphone on TCP with ngrok, portmap.io etc. but with UDP you can't.)  
 
 
-Private Version includes:  
+Private Version includes (we supports all cryptocurrencies like BTC, USDT etc.):  
 
 + Live Microphone with TCP. (You can hear Live Microphone with connection on ngrok, portmap.io etc.)  
  
